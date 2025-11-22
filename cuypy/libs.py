@@ -2,7 +2,6 @@ import socket
 from time import sleep
 import sys
 
-PC_NAME = socket.gethostname()
 
 def welcome_message():
     print("Selamat Datang Di Game Cuypy")
@@ -27,3 +26,4 @@ def exit_program():
     
 if __name__ == '__main__':
     exit_program()
+
