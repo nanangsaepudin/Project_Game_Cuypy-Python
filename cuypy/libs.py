@@ -5,9 +5,11 @@ import sys
 PC_NAME = socket.gethostname()
 
 def welcome_message():
-    style = "*" * (len(PC_NAME) + 6)
+    print("Selamat Datang Di Game Cuypy")
+    nama = input("Masukkan nama anda : ")
+    style = "*" * (len(nama) + 6)
     print(style)
-    print(f"** {PC_NAME} **")
+    print(f"** {nama} **")
     print(style)
     
 def exit_program():
